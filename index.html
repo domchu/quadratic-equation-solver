@@ -8,8 +8,14 @@
     <script src="/app.js" defer></script>
 </head>
 <body>
-    <form action="">
-        
+    <p>please enter the coefficient of <strong>a</strong>,<strong>b</strong> and <strong>c</strong> of a Quadratic Equation of the form <strong>ax&#x00b2; + bx + c = 0</strong> </p>
+    <form name="input-form" action="javascript:validate();">
+        a: <input type="text" name="aterm" size="5" required>
+        b: <input type="text" name="bterm" size="5" required>
+        c: <input type="text" name="cterm" size="5" required>
+        <input type="submit" value="calculate">
+
     </form>
+    <p id="output-text"></p>
 </body>
 </html>
