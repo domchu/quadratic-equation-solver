@@ -25,9 +25,9 @@ const validate = () => {
     let x2 = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
     outputText =
       "For the equation <strong>" +
-      (a == 1 ? "" : 1) +
-      "x\u00b2+" +
-      (a == 1 ? "" : 1) +
+      (a == 1 ? "" : a) +
+      "x\u00b2 +" +
+      (b == 1 ? "" : b) +
       "x+" +
       c +
       " = 0</strong>, x can equal <strong>" +
